@@ -1,8 +1,10 @@
 # DeepWave clinkprompt
 
-This is a prompt module for [clink](https://github.com/chrisant996/clink) that is simple, but has a variety of options. It draws inspiration from a number of other prompts, but is primarily Windows-first, and not a *nix port. It is for power users of the command line (that's why we use `clink`) who see the venerable `C:\>` as its own unique shell *identity* **^_^**.
+This prompt module for [clink](https://github.com/chrisant996/clink) is a simple one. While it draws inspiration from a number of other prompts, it is primarily Windows-first, and not a *nix port. It is for power users of the command line (that's why we use `clink`) who see the venerable `C:\>` as its own unique shell *identity* **^_^**.
 
-There is no `git` support here, so please try one of the other, very good, prompt modules if that is what you're looking for. Unlike *nix, `git` is not installed by default in Windows. Similarly, we don't look out for things like `~` because you can't `cd ~` on Windows.
+Though it is simple, it includes various options such as displaying timestamps, computer names, muting of previous prompts, error indicators, single/two-line prompts and a few different background/no-background theme colours - all of which can be enabled/disabled on-the-fly with simple environment variables.
+
+There is no `git` support here, so please try one of the other, very good, prompt modules if that is what you're looking for. Unlike *nix, `git` is not installed by default in Windows. Similarly, we don't look out for things like `~` because you can't `cd ~` on Windows. And if you don't have/want to install new fonts, there are a couple of themes that work fine with default `Consolas` as well.
 
 ![Default](images/default.png)
 
