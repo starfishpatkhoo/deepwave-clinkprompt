@@ -26,18 +26,18 @@ You can customise your prompt in multiple ways, and optionally show or hide the 
 
 These features can be set/enabled/disabled on-the-fly by setting various environment variables. Changing these settings will affect the current terminal immediately. If you want these settings to be the default, set them as your default environment variables.
 
-| Setting                   | Default  | To Change (hide or show as the case may be) |
-| ------------------------- | -------- | ------------------------------------------- |
-| Right Timestamp           | Show     | `set DEEPWAVE_PROMPT_DISABLE_TIMESTAMP=1 `  |
-| Computer Name             | Show     | `set DEEPWAVE_PROMPT_DISABLE_HOSTNAME=1 `   |
-| Error Indicator           | Show     | `set DEEPWAVE_PROMPT_DISABLE_ERRORIND=1`    |
-| Mute Old Prompts *        | Yes      | `set DEEPWAVE_PROMPT_DISABLE_MUTEOLD=1`     |
-| Two-Line Prompt *         | No       | `set DEEPWAVE_PROMPT_ENABLE_TWOLINE=1`      |
-| Battery Level Indicator * | Yes      | `set DEEPWAVE_PROMPT_DISABLE_BATTERYIND=1`  |
-| Drive Status Indicator *  | Yes      | `set DEEPWAVE_PROMPT_DISABLE_DRVTYPEIND=1`  |
-| Theme                     | `yellow` | `set DEEPWAVE_PROMPT_THEME=theme_name`      |
-| Colour Mode               | `dw`     | `set DEEPWAVE_PROMPT_COLOUR_MODE=mode_name` |
-| Greeting Message          | Yes      | `set DEEPWAVE_PROMPT_DISABLE_GREETING=1`    |
+| Setting                   | Default   | To Change (hide or show as the case may be) |
+| ------------------------- | --------- | ------------------------------------------- |
+| Right Timestamp           | Show      | `set DEEPWAVE_PROMPT_DISABLE_TIMESTAMP=1 `  |
+| Computer Name             | Show      | `set DEEPWAVE_PROMPT_DISABLE_HOSTNAME=1 `   |
+| Error Indicator           | Show      | `set DEEPWAVE_PROMPT_DISABLE_ERRORIND=1`    |
+| Mute Old Prompts *        | Yes       | `set DEEPWAVE_PROMPT_DISABLE_MUTEOLD=1`     |
+| Two-Line Prompt *         | No        | `set DEEPWAVE_PROMPT_ENABLE_TWOLINE=1`      |
+| Battery Level Indicator * | Yes       | `set DEEPWAVE_PROMPT_DISABLE_BATTERYIND=1`  |
+| Drive Status Indicator *  | Yes       | `set DEEPWAVE_PROMPT_DISABLE_DRVTYPEIND=1`  |
+| Theme                     | `magenta` | `set DEEPWAVE_PROMPT_THEME=theme_name`      |
+| Colour Mode               | `dw`      | `set DEEPWAVE_PROMPT_COLOUR_MODE=mode_name` |
+| Greeting Message          | Yes       | `set DEEPWAVE_PROMPT_DISABLE_GREETING=1`    |
 
 Notes:
 
