@@ -1,0 +1,75 @@
+---- default
+
+
+D:
+
+
+---- segments
+
+
+set DEEPWAVE_PROMPT_DISABLE_HOSTNAME=1
+
+
+set DEEPWAVE_PROMPT_DISABLE_TIMESTAMP=1
+
+
+---- themes-wibg
+set DEEPWAVE_PROMPT_THEME=yellow
+
+
+set DEEPWAVE_PROMPT_THEME=magenta
+
+
+set DEEPWAVE_PROMPT_THEME=blue
+
+
+set DEEPWAVE_PROMPT_THEME=mono
+
+
+---- themes-nobg
+set DEEPWAVE_PROMPT_THEME=yellow_nb
+
+
+set DEEPWAVE_PROMPT_THEME=magenta_nb
+
+
+set DEEPWAVE_PROMPT_THEME=blue_nb
+
+
+set DEEPWAVE_PROMPT_THEME=mono_nb
+
+
+---- twoline
+
+
+set DEEPWAVE_PROMPT_ENABLE_TWOLINE=1
+
+
+
+---- twoline-minimal
+set DEEPWAVE_PROMPT_DISABLE_HOSTNAME=1
+set DEEPWAVE_PROMPT_DISABLE_TIMESTAMP=1
+set DEEPWAVE_PROMPT_DISABLE_BATTERYIND=1
+set DEEPWAVE_PROMPT_THEME=yellow_nb
+set DEEPWAVE_PROMPT_ENABLE_TWOLINE=1
+
+
+
+---- driveind
+
+
+M:
+
+
+D:
+
+
+
+---- errors
+
+fsdlgjdsf
+
+
+---- show
+clink config prompt show DeepWave
+----
